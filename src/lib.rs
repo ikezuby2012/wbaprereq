@@ -41,7 +41,7 @@ mod tests {
         let keypair = read_keypair_file("dev-wallet.json").expect("Couldn't find wallet file");
 
         // Define our Turbin3 public key
-        let to_pubkey = Pubkey::from_str("<your Turbin3 public key>").unwrap();
+        let to_pubkey = Pubkey::from_str("GuNB1J932PQRBaHtr4iCtuFyTs9V1JPAPupnZEAx53Wi").unwrap();
 
         let rpc_client = RpcClient::new(RPC_URL);
 
